@@ -46,4 +46,3 @@ namespace Lab02
         }
     }
 }
-
