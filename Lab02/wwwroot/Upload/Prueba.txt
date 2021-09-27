@@ -1,4 +1,0 @@
- <DataModel>
-     <id>1</id>
-     <value>Hello World</value>
- </DataModel>
