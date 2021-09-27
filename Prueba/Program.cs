@@ -13,9 +13,18 @@ namespace Prueba
             {
                 outputFile.WriteLine(texto);
             }
-            Operaciones imp = new Operaciones("Prueba.txt", "Arbol");
+            OperacionesH imp = new OperacionesH("Prueba.txt", "Arbol");
             imp.Comprimir();
-            imp.Descomporimir();
+            imp.Descomprimir();
+
+
+
+            Console.Write("LZW");
+            OperacionesL impLZW = new OperacionesL("Prueba.txt", "Arbol");
+
+            impLZW.Comprimir();
+            impLZW.Descomprimir();
+
         }
     }
 }

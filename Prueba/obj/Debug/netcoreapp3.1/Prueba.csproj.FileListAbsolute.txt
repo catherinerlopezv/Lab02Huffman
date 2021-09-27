@@ -1,0 +1,14 @@
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\bin\Debug\netcoreapp3.1\Prueba.exe
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\bin\Debug\netcoreapp3.1\Prueba.deps.json
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\bin\Debug\netcoreapp3.1\Prueba.runtimeconfig.json
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\bin\Debug\netcoreapp3.1\Prueba.runtimeconfig.dev.json
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\bin\Debug\netcoreapp3.1\Prueba.dll
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\bin\Debug\netcoreapp3.1\Prueba.pdb
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\obj\Debug\netcoreapp3.1\Prueba.csproj.AssemblyReference.cache
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\obj\Debug\netcoreapp3.1\Prueba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\obj\Debug\netcoreapp3.1\Prueba.AssemblyInfoInputs.cache
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\obj\Debug\netcoreapp3.1\Prueba.AssemblyInfo.cs
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\obj\Debug\netcoreapp3.1\Prueba.csproj.CoreCompileInputs.cache
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\obj\Debug\netcoreapp3.1\Prueba.dll
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\obj\Debug\netcoreapp3.1\Prueba.pdb
+C:\Users\Zer0\Desktop\Lab02Huffman-LZW\Prueba\obj\Debug\netcoreapp3.1\Prueba.genruntimeconfig.cache
