@@ -2,4 +2,6 @@
 Huffman y LZW
 
 Se tiene el Archivo a comprimir y se obtiene un archivo.huff que se puede volver a descomprimir
+
+
 Se comprime el archivo y se obtiene un archivo.lzw y se descomprime 
