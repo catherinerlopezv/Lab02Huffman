@@ -9,22 +9,21 @@ namespace Huffman
         {
             Console.Write("Escribir texto: ");
             string texto = Console.ReadLine();
-
-
-
-
-
             using (StreamWriter outputFile = new StreamWriter("Prueba.txt"))
             {
                 outputFile.WriteLine(texto);
             }
-
-
-
-            Operaciones imp = new Operaciones("Prueba.txt", "Arbol");
-
+            OperacionesH imp = new OperacionesH("Prueba.txt", "Arbol");
             imp.Comprimir();
-            imp.Descomporimir();
+            imp.Descomprimir();
+
+
+
+            Console.Write("LZW");
+            OperacionesL impLZW = new OperacionesL("Prueba.txt", "Arbol");
+
+            impLZW.Comprimir();
+            impLZW.Descomprimir();
 
         }
     }

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 
 
+
 namespace Huffman
 {
     public class PrepararArchivo : ArbolHuffman
@@ -205,7 +206,7 @@ namespace Huffman
             }
         }
 
-        
+
         //Recorre las hojas hacia el padre y cuenta el numero de bits hasta llegar a la raiz
         private void RecorrerArbol(ManejarArbol fondo)
         {
@@ -218,7 +219,7 @@ namespace Huffman
             textoL.Add(fondo.BitVal);
         }
 
-      
+
 
         internal void CargarTexto(StreamReader leer)
         {
