@@ -112,7 +112,7 @@ namespace Lab3.Controllers
             }
         }
 
-        [HttpGet("compressions")]
+        [HttpGet("huffman/compressions")]
         public IEnumerable<Json> Get()
         {
             return Informacion.Instance.informacion.Select(x => new Json
@@ -122,6 +122,20 @@ namespace Lab3.Controllers
                 factorCompresion = x.factorCompresion,
                 razonCompresion = x.razonCompresion,
                 porcentajeCompresion = x.porcentajeCompresion
+            });
+
+        }
+
+        [HttpGet("lzw/compressions")]
+        public IEnumerable<Jsonlzw> Getlzw()
+        {
+            return InfoLZW.Instance.infolzw.Select(y => new Jsonlzw
+            {
+                nombreArchivolzw = ArchivOriginal,
+                ubicacionComprimidolzw = y.ubicacionComprimidolzw,
+                factorCompresionlzw = y.factorCompresionlzw,
+                razonCompresionlzw = y.razonCompresionlzw,
+                porcentajeCompresionlzw = y.porcentajeCompresionlzw
             });
         }
 
