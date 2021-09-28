@@ -7,6 +7,5 @@ Se tiene el Archivo a comprimir y se obtiene un archivo.huff que se puede volver
 
 # Lab03LZW
 Ubicado en la branch LZW-H
-LZW
 
 Se tiene el Archivo a comprimir y se obtiene un archivo.lzw que se puede volver a descomprimir
