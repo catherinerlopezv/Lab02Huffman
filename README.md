@@ -1,2 +1,1 @@
-# Lab02Huffman
-Huffman
+# Lab03LZW
