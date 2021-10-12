@@ -21,21 +21,22 @@ namespace LZW
 
         public void Comprimir()
         {
-            string enviarU = ubicacionRaiz + @"\\Upload\\Escritoriovpn.hdef";
+            string enviarU = ubicacionRaiz + @"\\Upload\\cifrado.hdef";
             PrepararArchivo hef = new PrepararArchivo(@ubicacion, @enviarU);
             byte[] b = hef.Codificar();
-            enviarU = ubicacionRaiz + @"\\Upload\\Comprimido.huff";
+            enviarU = ubicacionRaiz + @"\\Upload\\" + Path.GetFileNameWithoutExtension(ubicacion) + ".huff";
             File.WriteAllBytes(@enviarU, b);
         }
 
         public void Descomprimir()
         {
-            string enviarU = ubicacionRaiz + @"\\Upload\\Comprimido.huff";
+            string enviarU = ubicacionRaiz + @"\\Upload\\" + Path.GetFileNameWithoutExtension(ubicacion) + ".huff";
             byte[] bytes = ManejoDeArchivo.GetArchivoBytes(enviarU);
-            enviarU = ubicacionRaiz + @"\\Upload\\Escritoriovpn.hdef";
+            enviarU = ubicacionRaiz + @"\\Upload\\cifrado.hdef";
             string bb = PrepararArchivo.Decodificar(bytes, enviarU);
-            enviarU = ubicacionRaiz + @"\\Upload\\descomprimidoHuff.txt";
+            enviarU = ubicacionRaiz + @"\\Upload\\" + Path.GetFileNameWithoutExtension(ubicacion) + "descomprimido" + ".txt";
             File.WriteAllText(enviarU, bb);
         }
     }
 }
+
