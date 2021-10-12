@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System.Collections;
 using System.Data;
+using Huffman;
 
 
 
@@ -16,10 +17,12 @@ using System.Data;
 
 namespace Lab02.Controllers
 {
+    
     [ApiController]
     [Route("[controller]")]
     public class Api : ControllerBase
     {
+       
         public static IWebHostEnvironment _environment;
         //Nombre del archivo Original
         public static string ArchivOriginal;
