@@ -1,0 +1,14 @@
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\bin\Debug\netcoreapp3.1\LZW.exe
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\bin\Debug\netcoreapp3.1\LZW.deps.json
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\bin\Debug\netcoreapp3.1\LZW.runtimeconfig.json
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\bin\Debug\netcoreapp3.1\LZW.runtimeconfig.dev.json
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\bin\Debug\netcoreapp3.1\LZW.dll
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\bin\Debug\netcoreapp3.1\LZW.pdb
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.csproj.AssemblyReference.cache
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.GeneratedMSBuildEditorConfig.editorconfig
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.AssemblyInfoInputs.cache
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.AssemblyInfo.cs
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.csproj.CoreCompileInputs.cache
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.dll
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.pdb
+D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.genruntimeconfig.cache

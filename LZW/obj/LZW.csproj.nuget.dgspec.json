@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Descargas\\Lab3\\Lab3\\LZW\\LZW.csproj": {}
+    "D:\\Descargas\\Lab02Huffman-LZW-H (4)\\Lab02Huffman-LZW-H\\LZW\\LZW.csproj": {}
   },
   "projects": {
-    "D:\\Descargas\\Lab3\\Lab3\\LZW\\LZW.csproj": {
+    "D:\\Descargas\\Lab02Huffman-LZW-H (4)\\Lab02Huffman-LZW-H\\LZW\\LZW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Descargas\\Lab3\\Lab3\\LZW\\LZW.csproj",
+        "projectUniqueName": "D:\\Descargas\\Lab02Huffman-LZW-H (4)\\Lab02Huffman-LZW-H\\LZW\\LZW.csproj",
         "projectName": "LZW",
-        "projectPath": "D:\\Descargas\\Lab3\\Lab3\\LZW\\LZW.csproj",
+        "projectPath": "D:\\Descargas\\Lab02Huffman-LZW-H (4)\\Lab02Huffman-LZW-H\\LZW\\LZW.csproj",
         "packagesPath": "C:\\Users\\Zer0\\.nuget\\packages\\",
-        "outputPath": "D:\\Descargas\\Lab3\\Lab3\\LZW\\obj\\",
+        "outputPath": "D:\\Descargas\\Lab02Huffman-LZW-H (4)\\Lab02Huffman-LZW-H\\LZW\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Programas\\VS SDK, Tools\\NuGetPackages"
+        ],
         "configFilePaths": [
           "D:\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
