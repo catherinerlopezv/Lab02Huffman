@@ -24,7 +24,7 @@ namespace Huffman
             Operaciones imp = new Operaciones("Prueba.txt", "Arbol");
 
             imp.Comprimir();
-            imp.Descomporimir();
+            imp.Descomprimir();
 
         }
     }
