@@ -15,21 +15,13 @@ namespace LZW
         {
             if (ubicacion != String.Empty)
             {
-                CargarTexto(new StreamReader(new FileStream(ubicacion, FileMode.Open, FileAccess.Read)));
+
+                CargarTexto(File.ReadAllBytes(ubicacion));
             }
         }
     }
 
-    public class CodificarTexto : ArbolHuffman
-    {
-        public CodificarTexto(string texto)
-        {
-            byte[] textoArr = Encoding.ASCII.GetBytes(texto);
-            var temp = new MemoryStream(textoArr);
 
-            CargarTexto(new StreamReader(temp));
-        }
-    }
 
     //Arbol
     public abstract class ArbolHuffman
@@ -221,30 +213,23 @@ namespace LZW
 
 
 
-        internal void CargarTexto(StreamReader leer)
+        internal void CargarTexto(byte[] leer)
         {
             int codigo = 0;
             var revisar = new Dictionary<int, ulong>();
 
-            for (int i = 0; i < 128; i++)
+            for (int i = 0; i <leer.Length; i++)
             {
                 revisar.Add(i, 0);
             }
-            using (leer)
+            for (int i = 0; i < leer.Length; i++)
             {
-                while (leer.Peek() != -1)
-                {
-                    codigo = leer.Read();
-                    //Revisar si el caracter es ASCII
-                    if (codigo > 127)
-                    {
-                        throw new Exception("Solo debe ser caracter ascii: " + codigo + "en  Char: " + Convert.ToChar(codigo));
-                    }
-                    revisar[codigo]++;
-                }
+                codigo = leer[i];
+                revisar[codigo]++;
 
-                leer.Close();
             }
+            
+
             //Si son 0 caracteres se ignoran
             foreach (var llave in revisar)
             {

@@ -21,7 +21,8 @@ namespace LZW
         public void Comprimir()
         {
             string texto = File.ReadAllText(ubicacion);
-            List<int> textoComprimido = LZW.Comprimir(texto);
+            byte[] bytes=Encoding.ASCII.GetBytes(texto);
+            List<int> textoComprimido = LZW.Comprimir(bytes);
             string enviarU = ubicacionRaiz + @"\\Upload\\" + Path.GetFileNameWithoutExtension(ubicacion) + ".lzw";
             using StreamWriter ArchivoComprimido = new StreamWriter(enviarU);
             foreach (char caracter in textoComprimido)
@@ -50,7 +51,12 @@ namespace LZW
                     }
                 }
             }
-            string decompressed = LZW.Descomprimir(bytedecompress);
+
+         
+            byte []bytes  = bytedecompress.SelectMany(i => BitConverter.GetBytes(i)).ToArray();
+
+         
+            string decompressed = LZW.Descomprimir(bytes);
             string enviarU = ubicacionRaiz + @"\\Upload\\"+ Path.GetFileNameWithoutExtension(ubicacion)+"descomprimido" +".txt";
             File.WriteAllText(enviarU, decompressed);
         }

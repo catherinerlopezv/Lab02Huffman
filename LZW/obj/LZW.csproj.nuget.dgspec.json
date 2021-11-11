@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Descargas\\Lab02Huffman-LZW-H (4)\\Lab02Huffman-LZW-H\\LZW\\LZW.csproj": {}
+    "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj": {}
   },
   "projects": {
-    "D:\\Descargas\\Lab02Huffman-LZW-H (4)\\Lab02Huffman-LZW-H\\LZW\\LZW.csproj": {
+    "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Descargas\\Lab02Huffman-LZW-H (4)\\Lab02Huffman-LZW-H\\LZW\\LZW.csproj",
+        "projectUniqueName": "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj",
         "projectName": "LZW",
-        "projectPath": "D:\\Descargas\\Lab02Huffman-LZW-H (4)\\Lab02Huffman-LZW-H\\LZW\\LZW.csproj",
-        "packagesPath": "C:\\Users\\Zer0\\.nuget\\packages\\",
-        "outputPath": "D:\\Descargas\\Lab02Huffman-LZW-H (4)\\Lab02Huffman-LZW-H\\LZW\\obj\\",
+        "projectPath": "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj",
+        "packagesPath": "C:\\Users\\Cathy\\.nuget\\packages\\",
+        "outputPath": "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programas\\VS SDK, Tools\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,8 +25,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -58,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

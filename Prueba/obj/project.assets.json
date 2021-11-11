@@ -1,39 +1,66 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "LZW/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LZW.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LZW.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "LZW/1.0.0": {
+      "type": "project",
+      "path": "../LZW/LZW.csproj",
+      "msbuildProject": "../LZW/LZW.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "LZW >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\Zer0\\.nuget\\packages\\": {}
+    "C:\\Users\\Cathy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Descargas\\Lab3\\Lab3\\Prueba\\Prueba.csproj",
+      "projectUniqueName": "e:\\Cathy\\Documents\\lab 3 lzw repo\\Prueba\\Prueba.csproj",
       "projectName": "Prueba",
-      "projectPath": "D:\\Descargas\\Lab3\\Lab3\\Prueba\\Prueba.csproj",
-      "packagesPath": "C:\\Users\\Zer0\\.nuget\\packages\\",
-      "outputPath": "D:\\Descargas\\Lab3\\Lab3\\Prueba\\obj\\",
+      "projectPath": "e:\\Cathy\\Documents\\lab 3 lzw repo\\Prueba\\Prueba.csproj",
+      "packagesPath": "C:\\Users\\Cathy\\.nuget\\packages\\",
+      "outputPath": "e:\\Cathy\\Documents\\lab 3 lzw repo\\Prueba\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "D:\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Cathy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj": {
+              "projectPath": "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -60,7 +87,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

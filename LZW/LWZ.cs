@@ -9,13 +9,13 @@ namespace LZW
 	public class LZW
 	{
 		/// Comprime el texto y lo convierte en un listado de simbolos
-		public static List<int> Comprimir(string texto)
+		public static List<int> Comprimir(byte[] texto)
 		{
 
 			// Contruye el diccionario guardando los caractes unicos al principio del archivo y el contenido de lzw despues
 			Dictionary<string, int> diccionario = new Dictionary<string, int>();
 			//Limite de caracteres ascii
-			for (int i = 0; i < 256; i++)
+			for (int i = 0; i < texto.Length; i++)
 			{
 				diccionario.Add(((char)i).ToString(), i);
 			}
@@ -49,20 +49,25 @@ namespace LZW
 
 		}
 
-		public static string Descomprimir(List<int> texto)
+		public static string Descomprimir(byte[] texto)
 		{
 			// Se vuelve a construir la biblioteca
 			int tamañodeDiccionario = 256;
 			Dictionary<int, string> diccionario = new Dictionary<int, string>();
-			for (int i = 0; i < 256; i++)
+			for (int i = 0; i < texto.Length; i++)
 			{
 				diccionario[i] = "" + (char)i;
 			}
 
 			string temp = "" + (char)(int)texto.ElementAt(0);
-			texto.RemoveAt(0);
+			var liste = new List<byte>(texto);
+
+			liste.RemoveAt(0);
+
+			byte[] newstream = liste.ToArray();
+
 			StringBuilder resultado = new StringBuilder(temp);
-			foreach (int letras in texto)
+			foreach (int letras in newstream)
 			{
 				string entrada;
 				if (diccionario.ContainsKey(letras))

@@ -12,3 +12,16 @@ D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3
 D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.dll
 D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.pdb
 D:\Descargas\Lab02Huffman-LZW-H (4)\Lab02Huffman-LZW-H\LZW\obj\Debug\netcoreapp3.1\LZW.genruntimeconfig.cache
+e:\Cathy\Documents\lab 3 lzw repo\LZW\bin\Debug\netcoreapp3.1\LZW.exe
+e:\Cathy\Documents\lab 3 lzw repo\LZW\bin\Debug\netcoreapp3.1\LZW.deps.json
+e:\Cathy\Documents\lab 3 lzw repo\LZW\bin\Debug\netcoreapp3.1\LZW.runtimeconfig.json
+e:\Cathy\Documents\lab 3 lzw repo\LZW\bin\Debug\netcoreapp3.1\LZW.runtimeconfig.dev.json
+e:\Cathy\Documents\lab 3 lzw repo\LZW\bin\Debug\netcoreapp3.1\LZW.dll
+e:\Cathy\Documents\lab 3 lzw repo\LZW\bin\Debug\netcoreapp3.1\LZW.pdb
+e:\Cathy\Documents\lab 3 lzw repo\LZW\obj\Debug\netcoreapp3.1\LZW.csproj.AssemblyReference.cache
+e:\Cathy\Documents\lab 3 lzw repo\LZW\obj\Debug\netcoreapp3.1\LZW.AssemblyInfoInputs.cache
+e:\Cathy\Documents\lab 3 lzw repo\LZW\obj\Debug\netcoreapp3.1\LZW.AssemblyInfo.cs
+e:\Cathy\Documents\lab 3 lzw repo\LZW\obj\Debug\netcoreapp3.1\LZW.csproj.CoreCompileInputs.cache
+e:\Cathy\Documents\lab 3 lzw repo\LZW\obj\Debug\netcoreapp3.1\LZW.dll
+e:\Cathy\Documents\lab 3 lzw repo\LZW\obj\Debug\netcoreapp3.1\LZW.pdb
+e:\Cathy\Documents\lab 3 lzw repo\LZW\obj\Debug\netcoreapp3.1\LZW.genruntimeconfig.cache
