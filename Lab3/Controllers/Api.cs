@@ -72,7 +72,6 @@ namespace Lab3.Controllers
                 return StatusCode(500, new { name = "Internal Server Error", message = e.Message });
             }
         }
-
         [HttpPost("lzw/compress")]
         public IActionResult postLZW([FromForm] IFormFile file)
         {
@@ -97,6 +96,17 @@ namespace Lab3.Controllers
                         imp.Comprimir();
                         MemoryStream enviar = new MemoryStream(System.IO.File.ReadAllBytes(_environment.WebRootPath +
                             "\\Upload\\" + Path.GetFileNameWithoutExtension(file.FileName) + ".lzw"));
+                       
+                        Jsonlzw.ManejarCompressions(
+                           new Jsonlzw
+                           {
+                               NombreOriginal = ArchivOriginal,
+                               Nombre = file.FileName,
+                               RutaArchivo = Path.GetFullPath(file.FileName),
+                               RazonCompresion = (double)file.Length / (double)ArchivOriginal.Length,
+                               FactorCompresion = (double)ArchivOriginal.Length / (double)file.Length,
+                               Porcentaje = 100 - (((double)file.Length / (double)ArchivOriginal.Length) * 100)
+                           });
                         return File(enviar, "text/plain", Path.GetFileNameWithoutExtension(file.FileName) + ".lzw");
                     }
                 }
@@ -114,30 +124,75 @@ namespace Lab3.Controllers
         }
 
         [HttpGet("huffman/compressions")]
-        public IEnumerable<Json> Get()
-        {
-            return Informacion.Instance.informacion.Select(x => new Json
-            {
-                nombreArchivo = ArchivOriginal,
-                ubicacionComprimido = UbicacionCom,
-                factorCompresion = x.factorCompresion,
-                razonCompresion = x.razonCompresion,
-                porcentajeCompresion = x.porcentajeCompresion
-            });
+        public IEnumerable<Jsonlzw> Get()
+        { 
+       var compresiones = new List<Jsonlzw>();
+        var logicaLIFO = new Stack<Jsonlzw>();
+        var Linea = string.Empty;
 
+            using (var Reader = new StreamReader(Path.Combine(Environment.CurrentDirectory, "compressions.json")))
+            {
+                while (!Reader.EndOfStream)
+                {
+                    var historialtemp = new Jsonlzw();
+    Linea = Reader.ReadLine();
+                    historialtemp.NombreOriginal = Linea;
+                    Linea = Reader.ReadLine();
+                    historialtemp.Nombre = Linea;
+                    Linea = Reader.ReadLine();
+                    historialtemp.RutaArchivo = Linea;
+                    Linea = Reader.ReadLine();
+                    historialtemp.RazonCompresion = Convert.ToDouble(Linea);
+                    Linea = Reader.ReadLine();
+                    historialtemp.FactorCompresion = Convert.ToDouble(Linea);
+                    Linea = Reader.ReadLine();
+                    historialtemp.Porcentaje = Convert.ToDouble(Linea);
+                    logicaLIFO.Push(historialtemp);
+                }
+            }
+
+            while (logicaLIFO.Count != 0)
+{
+    compresiones.Add(logicaLIFO.Pop());
+}
+
+return compresiones;
         }
 
         [HttpGet("lzw/compressions")]
         public IEnumerable<Jsonlzw> Getlzw()
         {
-            return InfoLZW.Instance.infolzw.Select(y => new Jsonlzw
+            var compresiones = new List<Jsonlzw>();
+            var logicaLIFO = new Stack<Jsonlzw>();
+            var Linea = string.Empty;
+
+            using (var Reader = new StreamReader(Path.Combine(Environment.CurrentDirectory, "compressions.json")))
             {
-                nombreArchivolzw = ArchivOriginal,
-                ubicacionComprimidolzw = y.ubicacionComprimidolzw,
-                factorCompresionlzw = y.factorCompresionlzw,
-                razonCompresionlzw = y.razonCompresionlzw,
-                porcentajeCompresionlzw = y.porcentajeCompresionlzw
-            });
+                while (!Reader.EndOfStream)
+                {
+                    var historialtemp = new Jsonlzw();
+                    Linea = Reader.ReadLine();
+                    historialtemp.NombreOriginal = Linea;
+                    Linea = Reader.ReadLine();
+                    historialtemp.Nombre = Linea;
+                    Linea = Reader.ReadLine();
+                    historialtemp.RutaArchivo = Linea;
+                    Linea = Reader.ReadLine();
+                    historialtemp.RazonCompresion = Convert.ToDouble(Linea);
+                    Linea = Reader.ReadLine();
+                    historialtemp.FactorCompresion = Convert.ToDouble(Linea);
+                    Linea = Reader.ReadLine();
+                    historialtemp.Porcentaje = Convert.ToDouble(Linea);
+                    logicaLIFO.Push(historialtemp);
+                }
+            }
+
+            while (logicaLIFO.Count != 0)
+            {
+                compresiones.Add(logicaLIFO.Pop());
+            }
+
+            return compresiones;
         }
 
 
@@ -201,6 +256,8 @@ namespace Lab3.Controllers
                         imp.Descomprimir();
                         MemoryStream enviar = new MemoryStream(System.IO.File.ReadAllBytes(_environment.WebRootPath + "\\Upload\\" + Path.GetFileNameWithoutExtension(file.FileName) + ".txt"));
                         return File(enviar, "text/plain", Path.GetFileNameWithoutExtension(file.FileName) + ".txt");
+
+
                     }
                 }
                 else

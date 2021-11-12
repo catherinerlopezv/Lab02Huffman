@@ -59,3 +59,31 @@ E:\Cathy\Documents\lab03\Lab02Huffman-LZW-H\Lab3\obj\Debug\netcoreapp3.1\Lab3.Ra
 E:\Cathy\Documents\lab03\Lab02Huffman-LZW-H\Lab3\obj\Debug\netcoreapp3.1\Lab3.dll
 E:\Cathy\Documents\lab03\Lab02Huffman-LZW-H\Lab3\obj\Debug\netcoreapp3.1\Lab3.pdb
 E:\Cathy\Documents\lab03\Lab02Huffman-LZW-H\Lab3\obj\Debug\netcoreapp3.1\Lab3.genruntimeconfig.cache
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\LZW.deps.json
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\LZW.runtimeconfig.json
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\LZW.runtimeconfig.dev.json
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\LZW.exe
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\Lab3.exe
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\Lab3.deps.json
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\Lab3.runtimeconfig.json
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\Lab3.runtimeconfig.dev.json
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\Lab3.dll
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\Lab3.pdb
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\LZW.dll
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\LZW.pdb
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\Lab3.csproj.AssemblyReference.cache
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\Lab3.AssemblyInfoInputs.cache
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\Lab3.AssemblyInfo.cs
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\Lab3.csproj.CoreCompileInputs.cache
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\Lab3.MvcApplicationPartsAssemblyInfo.cache
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\staticwebassets\Lab3.StaticWebAssets.Manifest.cache
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\staticwebassets\Lab3.StaticWebAssets.xml
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\scopedcss\bundle\Lab3.styles.css
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\Lab3.RazorTargetAssemblyInfo.cache
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\Lab3.csproj.CopyComplete
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\Lab3.dll
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\Lab3.pdb
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\obj\Debug\netcoreapp3.1\Lab3.genruntimeconfig.cache
+E:\Cathy\Documents\lab 3 lzw repo\Lab3\bin\Debug\netcoreapp3.1\compressions.json

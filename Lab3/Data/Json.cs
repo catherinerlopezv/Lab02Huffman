@@ -7,11 +7,13 @@ namespace Lab3
 {
     public class Json
     {
-        public string nombreArchivo { get; set; }
-        public string ubicacionComprimido { get; set; }
-        public double razonCompresion { get; set; }
-        public double factorCompresion  { get; set; }
-        public double porcentajeCompresion { get; set; }
+
+        public string NombreOriginal { get; set; }
+        public string Nombre { get; set; }
+        public string RutaArchivo { get; set; }
+        public double RazonCompresion { get; set; }
+        public double FactorCompresion { get; set; }
+        public double Porcentaje { get; set; }
 
     }
 }

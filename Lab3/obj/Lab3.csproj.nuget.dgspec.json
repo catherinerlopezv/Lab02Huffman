@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Cathy\\Documents\\lab 3 lzw repo\\Lab3\\Lab3.csproj": {}
+    "E:\\Cathy\\Documents\\lab 3 lzw repo\\Lab3\\Lab3.csproj": {}
   },
   "projects": {
-    "e:\\Cathy\\Documents\\lab 3 lzw repo\\Lab3\\Lab3.csproj": {
+    "E:\\Cathy\\Documents\\lab 3 lzw repo\\Lab3\\Lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Cathy\\Documents\\lab 3 lzw repo\\Lab3\\Lab3.csproj",
+        "projectUniqueName": "E:\\Cathy\\Documents\\lab 3 lzw repo\\Lab3\\Lab3.csproj",
         "projectName": "Lab3",
-        "projectPath": "e:\\Cathy\\Documents\\lab 3 lzw repo\\Lab3\\Lab3.csproj",
+        "projectPath": "E:\\Cathy\\Documents\\lab 3 lzw repo\\Lab3\\Lab3.csproj",
         "packagesPath": "C:\\Users\\Cathy\\.nuget\\packages\\",
-        "outputPath": "e:\\Cathy\\Documents\\lab 3 lzw repo\\Lab3\\obj\\",
+        "outputPath": "E:\\Cathy\\Documents\\lab 3 lzw repo\\Lab3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj": {
-                "projectPath": "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj"
+              "E:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj": {
+                "projectPath": "E:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj": {
+    "E:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj",
+        "projectUniqueName": "E:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj",
         "projectName": "LZW",
-        "projectPath": "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj",
+        "projectPath": "E:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\LZW.csproj",
         "packagesPath": "C:\\Users\\Cathy\\.nuget\\packages\\",
-        "outputPath": "e:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\obj\\",
+        "outputPath": "E:\\Cathy\\Documents\\lab 3 lzw repo\\LZW\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
